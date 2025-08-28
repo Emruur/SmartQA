@@ -1,6 +1,9 @@
 # SmartQA System
 
 SmartQA System — a full-stack pipeline for building, querying, and interacting with question & answer corpora. The system is designed to support automated corpus generation, hybrid retrieval, and multiple web interfaces. 
+
+Unlike traditional black-box chatbots, SmartQA can operate as a no-cost, lightweight alternative in budget or energy-constrained environments. Since all responses are based in an inspectable Q&A corpus, it is usable in critical use cases where hallucinations are a deal-breaker
+
 ---
 
 ## 📁 Documentation Overview
