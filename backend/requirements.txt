@@ -1,0 +1,18 @@
+# — core web —
+fastapi==0.116.1        # matches Pydantic v2
+uvicorn[standard]==0.29.0 # ASGI server (includes httptools, websockets…)
+
+torch>=2.2,<=2.7
+transformers>=4.50,<5.0
+safetensors>=0.3,<=0.4.3
+FlagEmbedding>=1.3,<1.4
+
+scikit-learn>=1.5,<1.6
+pandas>=2.2,<2.3
+numpy>=1.26,<1.27
+
+# — database  —
+SQLAlchemy==2.0.30             # works with declarative_base import path
+
+# (optional) load .env files for local dev
+python-dotenv==1.0.1
