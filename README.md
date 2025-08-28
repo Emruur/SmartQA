@@ -1,12 +1,11 @@
-# Q&A System
+# SmartQA System
 
-Q&A System — a full-stack pipeline for building, querying, and interacting with question & Answer corpora. The system is designed to support automated corpus generation, hybrid retrieval with reranking, and multiple user interfaces including a Smart FAQ and Chat UI.
-
+SmartQA System — a full-stack pipeline for building, querying, and interacting with question & answer corpora. The system is designed to support automated corpus generation, hybrid retrieval, and multiple web interfaces. 
 ---
 
 ## 📁 Documentation Overview
 
-This monorepo includes documentation for three key components:
+This repo includes documentation for three key components:
 
 ### 1. 📚 [Corpus Generation Pipeline](docs/CorpusGenerationDocs.md)
 
@@ -17,6 +16,10 @@ Automates the creation of a Q&A corpus from web content using the Google Gemini 
 - **Stage 3**: Use Gemini to generate answers to those questions.
 
 📖 **[Read more →](docs/CorpusGenerationDocs.md)**
+#### Note
+
+- This project was initiated during my internship at CommitGlobal.  
+The repository includes a QA corpus generated from their website [Dopomoha](https://dopomoha.ro/en), along with the generation parameters used in the processing for reference.
 
 ---
 
